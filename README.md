@@ -27,4 +27,6 @@ Mark the autostart-script as executable
 
 ```sudo chmod +x autostart.sh```
 
-You should now be able to log into the dwm session from your display manager or run it using startx. 
+You should now be able to log into the dwm session from your display manager. To run dwm using "startx", add this line to your .xinitrc:
+
+```exec dwm```
