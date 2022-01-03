@@ -12,6 +12,7 @@ Make sure you have the dependencies of dwm installed (https://packages.gentoo.or
 "dwm_hidden" should be moved to your $HOME directory and renamed to ".dwm". 
 
 ```cd dwm-basic/```
+
 ```mv dwm_hidden ~/.dwm```
 
 "xsession_hidden" should also be moved there and renamed to ".xsession". 
