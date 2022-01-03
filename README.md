@@ -9,7 +9,22 @@ Make sure you have the dependencies of dwm installed (https://packages.gentoo.or
 
 ```git clone https://github.com/lu2idreams/dwm-basic```
 
-"dwm_hidden" should be moved to your $HOME directory and renamed to ".dwm". "xsession_hidden" should also be moved there and renamed to ".xsession". Now, move the "dwm" directory to $HOME as well.
+"dwm_hidden" should be moved to your $HOME directory and renamed to ".dwm". 
+
+```cd dwm-basic/```
+```mv dwm_hidden ~/.dwm```
+
+"xsession_hidden" should also be moved there and renamed to ".xsession". 
+
+```mv xsession_hidden ~/.xsession```
+
+Now, move the "dwm" directory to $HOME as well.
+
+```mv dwm ~/dwm```
+
+OPTIONAL: Move Xresources_hidden (if you plan to use urxvt):
+
+```mv Xresources_hidden ~/.Xresources```
 
 ## Installation
 
