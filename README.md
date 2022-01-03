@@ -1,5 +1,5 @@
 # dwm-basic
-A basic build of dwm including only few patches and modifications
+A basic build of dwm including only few patches and modifications, mostly for personal use.
 
 # Installation
 
